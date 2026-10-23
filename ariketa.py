@@ -27,7 +27,7 @@ for i, caracter in enumerate(lista):
 
     lista_aux = []
 
-    posicion_siguiente = i
+    posicion_futura = i
 
     while posicion_futura < len(lista) and lista[posicion_futura] not in lista_aux:
         
